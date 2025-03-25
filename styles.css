@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 header{
     display: flex;
@@ -20,12 +21,20 @@ header>img{
     justify-content: flex-end;
     width: 1600px;
 }
+.text>a:hover{
+     color: white;
+     background-color: #6DBAE0;
+     border-radius: 15px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
 .text>a{
     text-decoration: none;
     color: black;
+    transition:all .5s;
 }
 .container-1{
-    background: linear-gradient(229.74deg, rgb(109, 186, 224) -5.731%,rgba(255, 255, 255, 0) 104.6%);
+    background:  linear-gradient(-0.38deg, rgb(109, 186, 224) -44.241%,rgba(255, 255, 255, 0) 97.632%);
     display: flex;
     flex-direction: row;
     gap: 400px;
@@ -44,10 +53,10 @@ header>img{
 .container-2{
     box-shadow:inset 0 16px 14px 1px rgba(0, 0, 0, 0.14);
     background-color: #ffffff;
-    font-size: 23px;
-    padding-top: 30px;
+    font-size: 30px;
+    padding-top: 40px;
     padding-left: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     height:auto;
 }
 .container-3{
@@ -59,13 +68,18 @@ header>img{
     padding-bottom: 20px;
     width: 100%;
 }
+.howWork{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
 .text3{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 130px;
     text-align: center;
-    padding-left: 35px;
+    padding-left: 60px;
 }
 .text3>p{
     font-size: 20px;
@@ -73,7 +87,7 @@ header>img{
 .icons{
     display: flex;
     flex-direction: row;
-    justify-content: center;gap: 350px;
+    justify-content: center;gap: 400px;
 }
 .icons>img{
     width: 10%;
@@ -90,6 +104,12 @@ header>img{
 .container-4>a{
     text-decoration: none;
     color: black;
+}
+#page2{
+    transition:all .5s;
+}
+#page2:hover{
+    color: #00801d;
 }
 footer{
     display: flex;
