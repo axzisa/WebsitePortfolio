@@ -6,7 +6,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: aqua;
+    background-color: #ffffff;
     height: 80px;
 }
 header>img{
@@ -25,19 +25,28 @@ header>img{
     color: black;
 }
 .container-1{
-    background-color: #ceffa3;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
-    gap: 700px;
+    gap: 400px;
     align-items: center;
+    z-index: 1;
 }
 #big-logo{
-    width: 40%;
+    width: 450px;
+    padding-top: 15px;
 }
-.text2>p{
-    font-size: 36px;
+.text2{
+    font-size: 42px;
+    width:900px;
+    padding-left: 30px;
 }
 
 .container-2{
-    background-color: #ffa2e2;
+    box-shadow:inset 0px 16px 14px 1px rgba(0, 0, 0, 0.14);
+    background-color: #ffffff;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 2;
 }
