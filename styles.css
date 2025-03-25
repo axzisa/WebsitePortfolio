@@ -25,7 +25,7 @@ header>img{
     color: black;
 }
 .container-1{
-    background-color: #ffffff;
+    background: linear-gradient(229.74deg, rgb(109, 186, 224) -5.731%,rgba(255, 255, 255, 0) 104.6%);
     display: flex;
     flex-direction: row;
     gap: 400px;
