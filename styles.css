@@ -37,7 +37,7 @@ header>img{
     background:  linear-gradient(-0.38deg, rgb(109, 186, 224) -44.241%,rgba(255, 255, 255, 0) 97.632%);
     display: flex;
     flex-direction: row;
-    gap: 400px;
+    gap: 300px;
     align-items: center;
 }
 #big-logo{
@@ -47,7 +47,7 @@ header>img{
 .text2{
     font-size: 42px;
     width:900px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 .container-2{
     box-shadow:inset 0 16px 14px 1px rgba(0, 0, 0, 0.14);
