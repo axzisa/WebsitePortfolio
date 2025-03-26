@@ -49,3 +49,21 @@ header>img{
     width:900px;
     padding-left: 40px;
 }
+.cont-2{
+    background-color: #6DBAE0;
+    box-shadow:inset 0 16px 14px 1px rgba(0, 0, 0, 0.14);
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#zagolovok{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+.clouds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
