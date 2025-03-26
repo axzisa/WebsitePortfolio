@@ -67,3 +67,14 @@ header>img{
     flex-direction: row;
     justify-content: space-between;
 }
+.cont-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.cont-3>img{
+    width: 60%;
+    border: 3px solid black;
+}
