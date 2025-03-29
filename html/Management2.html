@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>@import "../css/Management2.css";</style>
+</head>
+<body>
+<header>
+    <img src="../photo/logo.png" alt="logo">
+    <div class="text">
+        <a href="../index.html">Главная</a>
+        <a href="Management and teaching staff.html">Руководство и педагогический состав</a>
+    </div>
+</header>
+<main>
+    <div class="container-1">
+        <div class="text2">
+            <h1>Исламова Светлана Айдаровна</h1>
+            <br>
+            <p><b>Контактный телефон:</b> 8 (34783) 3-57-41</p>
+            <p><b>Электронная почта:</b>  cttd@yandex.ru (с пометкой «Для Исламовой»)</p>
+            <span style="color: #757575;font-size: 20px">Сайт-портфолио для руководства и педагогов</span>
+        </div>
+        <img src="../photo/Metodist.png" alt="" id="big-logo">
+    </div>
+
+    <div class="container-2">
+        <div class="cont-2">
+            <p id="zagolovok"><b>Основная информация</b></p>
+            <br><br>
+            <p><span style="font-size: 35px;"><b>Занимаемая должность:</b></span> методист</p><br>
+            <p><span style="font-size: 35px;"><b>Образование:</b></span> высшее, Бирский филиал БГУ, учитель начальных классов, 2013г.</p><br>
+            <p><span style="font-size: 35px;"><b>Общий стаж работы:</b></span>  15 лет</p><br>
+            <p><span style="font-size: 35px;"><b>Педагогический стаж:</b></span> 15 лет</p>
+        </div>
+        <div class="clouds">
+            <img src="../photo/cloudRev.png" alt="">
+            <img src="../photo/cloudRev4.png" alt="">
+        </div>
+    </div>
+    <div class="container-3">
+        <p id="zagolovok"><span style="color: #F00;"><b>Достижения</b></span></p>
+        <br><br>
+        <div class="cont-3">
+            <img src="../photo/Svetlana/01.jpg" alt="">
+            <img src="../photo/Svetlana/02.jpg" alt="">
+        </div>
+    </div>
+    <div class="container-4">
+        <p id="zagolovok"><b>Фотогалерея</b></p>
+        <br><br>
+        <div class="gallery">
+            <img id="big-img" src="../photo/Svetlana/03.jpg" alt="" onclick="openModal(this)">
+            <img  src="../photo/Svetlana/04.jpg" alt="" onclick="openModal(this)">
+        </div>
+
+        <div id="modal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+    </div>
+</main>
+<script src="../script.js"></script>
+</body>
+</html>
