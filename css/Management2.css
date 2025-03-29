@@ -126,3 +126,11 @@ header>img{
     width: 80%;
     max-width: 700px;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #5491a9;
+    gap:200px;
+    font-size: 20px;
+    justify-content: center;
+}
