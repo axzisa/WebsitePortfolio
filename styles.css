@@ -214,4 +214,10 @@ footer{
     .howWork{
         visibility: hidden;
     }
+    .foot-1, .foot-2 {
+        font-size: 10px;
+    }
+    .cont-2Text{
+        font-size: 18px;
+    }
 }
