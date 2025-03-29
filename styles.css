@@ -37,8 +37,9 @@ header>img{
     background:  linear-gradient(-0.38deg, rgb(109, 186, 224) -44.241%,rgba(255, 255, 255, 0) 97.632%);
     display: flex;
     flex-direction: row;
-    gap: 300px;
+    gap: 160px;
     align-items: center;
+    width: auto;
 }
 #big-logo{
     width: 510px;
@@ -122,13 +123,78 @@ footer{
     font-size: 20px;
     justify-content: center;
 }
-@media (max-width: 1650px){
-    .icons{
-        gap: 380px;
-    }
+.foot-1, .foot-2 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px;
+    max-width: 400px;
 }
-@media (max-width: 1242px){
+#hidden-logo{
+    display:none;
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 480px){
+    header>img{
+        visibility: hidden;
+    }
+    .text{
+        font-size: 17px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        width: 1600px;
+    }
+    .container-1{
+        background:  linear-gradient(-0.38deg, rgb(109, 186, 224) -44.241%,rgba(255, 255, 255, 0) 97.632%);
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        gap: 0;
+    }
+    .text2{
+        font-size: 30px;
+        width:300px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        z-index: 6;
+    }
+    #big-logo{
+        visibility: hidden;
+    }
+    #hidden-logo{
+        display: block;
+        width: auto;
+        height: 350px;
+        z-index: 1;
+        left: 150px;
+        position: absolute;
+    }
+    .text3{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        padding-right: 60px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .text3>p{
+        font-size: 18px;
+    }
     .icons{
-        gap: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .icons>img{
+        width: 50%;
+    }
+    .container-3{
+        z-index: 1;
+        background-color: #6DBAE0;
+        display: grid;
+        grid-template-columns: 100px 400px;
     }
 }
